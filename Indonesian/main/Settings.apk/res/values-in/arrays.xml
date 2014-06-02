@@ -1,355 +1,348 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="animator_duration_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
     </string-array>
     <string-array name="apn_auth_entries">
-        <item>None</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP or CHAP</item>
+        <item>Tdk ditentukan</item>
+        <item>P A P</item>
+        <item>C H AP</item>
+        <item>P A P atau C H A P</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Internal device storage</item>
-        <item>Removable SD card</item>
-        <item>Let the system decide</item>
+        <item>Penyimpanan perangkat internal</item>
+        <item>Kartu SD yang dapat dicopot</item>
+        <item>Biarkan sistem menentukan</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standard limit</item>
-        <item>No background processes</item>
-        <item>At most 1 process</item>
-        <item>At most 2 processes</item>
-        <item>At most 3 processes</item>
-        <item>At most 4 processes</item>
+        <item>Batas standar</item>
+        <item>Tanpa proses latar belakang</item>
+        <item>Maksimal 1 proses</item>
+        <item>Maksimal 2 proses</item>
+        <item>Maksimal 3 proses</item>
+        <item>Maksimal 4 proses</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
-        <item>Graphical</item>
-        <item>Percentage</item>
-        <item>Top bar</item>
+        <item>Grafik</item>
+        <item>Persentasi</item>
+        <item>Layar Atas</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>1 hour</item>
-        <item>Never time out</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>1 jam</item>
+        <item>Tanpa waktu tunggu</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>20 seconds</item>
+        <item>1 detik</item>
+        <item>2 detik</item>
+        <item>5 detik</item>
+        <item>10 detik</item>
+        <item>20 detik</item>
         <item>Always</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>Kuat</item>
+        <item>Sedang</item>
+        <item>Ringan</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Never use HDCP checking</item>
-        <item>Use HDCP checking for DRM content only</item>
-        <item>Always use HDCP checking</item>
+        <item>Jangan gunakan pemeriksaan HDCP</item>
+        <item>Gunakan pemeriksaan HDCP untuk konten DRM saja</item>
+        <item>Selalu gunakan pemeriksaan HDCP</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Never check</item>
-        <item>Check for DRM content only</item>
-        <item>Always check</item>
+        <item>Jangan periksa</item>
+        <item>Periksa hanya konten DRM</item>
+        <item>Selalu periksa</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Short</item>
-        <item>Medium</item>
-        <item>Long</item>
-    </string-array>
-    <string-array name="phone_call_noise_suppression_title">
-        <item>Single mic Noise Supression</item>
-        <item>Dual mic Noise Supression</item>
+        <item>Pendek</item>
+        <item>Sedang</item>
+        <item>Panjang</item>
     </string-array>
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
-        <item>Pattern</item>
-        <item>Numerical password</item>
-        <item>Mixed password</item>
+        <item>Face_Lock</item>
+        <item>Pola</item>
+        <item>Sandi Numerik</item>
+        <item>Sandi Mix</item>
     </string-array>
     <string-array name="dream_timeout_entries">
-        <item>Never</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>Tidak pernah</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
     </string-array>
     <string-array name="emergency_tone_entries">
-        <item>Off</item>
-        <item>Alert</item>
-        <item>Vibrate</item>
+        <item>Mati</item>
+        <item>Lansiran</item>
+        <item>Getar</item>
     </string-array>
     <string-array name="entries_font_size">
-        <item>Small</item>
+        <item>Kecil</item>
         <item>Normal</item>
-        <item>Large</item>
-        <item>Huge</item>
+        <item>Besar</item>
+        <item>Raksasa</item>
     </string-array>
     <string-array name="led_freq_entries">
-        <item>2 seconds</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-        <item>8 seconds</item>
-        <item>9 seconds</item>
+        <item>2 detik</item>
+        <item>3 detik</item>
+        <item>4 detik</item>
+        <item>5 detik</item>
+        <item>6 detik</item>
+        <item>7 detik</item>
+        <item>8 detik</item>
+        <item>9 detik</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>Segera</item>
+        <item>5 detik</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
     </string-array>
     <string-array name="multi_sim_entries">
-        <item>Subscription 1</item>
-        <item>Subscription 2</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
     <string-array name="multi_sim_summaries">
-        <item>Subscription 1</item>
-        <item>Subscription 2</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
     <string-array name="multi_sim_entries_voice">
-        <item>Subscription 1</item>
-        <item>Subscription 2</item>
-        <item>Prompt</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Tanya</item>
     </string-array>
     <string-array name="multi_sim_summaries_voice">
-        <item>Subscription 1</item>
-        <item>Subscription 2</item>
-        <item>Prompt User</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Tanya Pengguna</item>
     </string-array>
     <string-array name="multi_sim_entries_voice_without_prompt">
-        <item>Subscription 1</item>
-        <item>Subscription 2</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
     <string-array name="power_dialog_auto_clean_memory_items">
-        <item>After 1 minute</item>
-        <item>After 5 minutes</item>
-        <item>After 10 minutes</item>
-        <item>Never</item>
+        <item>Setelah 1 Menit</item>
+        <item>Setelah 5 Menit</item>
+        <item>Setelah 10 Menit</item>
+        <item>Tidak Pernah</item>
     </string-array>
     <string-array name="power_dialog_cpu_state_items">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Performa Tinggi</item>
+        <item>Seimbang</item>
+        <item>Hemat Baterai</item>
     </string-array>
     <string-array name="power_dialog_sleep_items">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>Tidak pernah</item>
     </string-array>
     <string-array name="power_dialog_vibration_items">
-        <item>Never vibrate</item>
-        <item>Vibrate when ringer is silenced</item>
-        <item>Always vibrate</item>
+        <item>Tidak pernah getar</item>
+        <item>Getar jika dering dimatikan</item>
+        <item>Selalu bergetar</item>
     </string-array>
    <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Performance tinggi</item>
+        <item>Seimbang</item>
+        <item>Hemat baterai</item>
     </string-array>
     <string-array name="preferred_app_entries">
-       <item>Desktop</item>
-       <item>Phone</item>
-       <item>SMS</item>
-       <item>Browser</item>
-       <item>Camera</item>
-       <item>Albums</item>
-       <item>Music</item>
-       <item>E-mail</item>
+       <item>Telepon</item>
+       <item>Kamera</item>
+       <item>Album</item>
+       <item>MusiK</item>
+       <item>Email</item>
    </string-array>
     <string-array name="score_descriptions">
-        <item>Blocklist is off</item>
-        <item>Permissions manager is off</item>
-        <item>Trash is too large</item>
-        <item>Virus definitions timed out</item>
-        <item>Too many background processes</item>
+        <item>Blocklist Mati</item>
+        <item>Manajer perijinan Mati</item>
+        <item>Sampah terlalu besar</item>
+        <item>Habis waktu definisi virus</item>
+        <item>Terlalu banyak Background Proses</item>
     </string-array>
     <string-array name="score_suggests">
-        <item>Enable blocklist</item>
-        <item>Enable app permission controls</item>
-        <item>Clean garbage</item>
-        <item>Update virus library</item>
-        <item>"You're running a lot of apps in the background…"</item>
+        <item>Hidupkan blocklist</item>
+        <item>Hidupkan kontrol perijinan app</item>
+        <item>Bersihkan sampah</item>
+        <item>Update librari Virus</item>
+        <item>"Terlalu banyak Background Proses"</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Warm</item>
-        <item>Standard</item>
-        <item>Cool</item>
+        <item>Hangat</item>
+        <item>Sedang</item>
+        <item>Dingin</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
-        <item>None</item>
+        <item>Kosong</item>
         <item>Launch Recent panel</item>
-        <item>Launch Voice assist</item>
-        <item>Launch Google now</item>
-        <item>Close current app</item>
+        <item>Luncurkan Assist Suara</item>
+        <item>Luncurkan Google now</item>
+        <item>Tutup apl ini</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 second</item>
-        <item>1 second</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
+        <item>0.5 detik</item>
+        <item>1 detik</item>
+        <item>1.5 detik</item>
+        <item>2 detik</item>
     </string-array>
     <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
-        <item>Standard</item>
+        <item>Terang</item>
+        <item>Biasa</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>Tdk pernah</item>
     </string-array>
     <string-array name="slideshow_time_entries">
-        <item>5 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>Unlimited</item>
+        <item>5 menit</item>
+        <item>15 menit</item>
+        <item>30 menit</item>
+        <item>1 jam</item>
+        <item>Tdk Terbatas</item>
     </string-array>
     <string-array name="startup_hips_action">
-        <item>Allow</item>
-        <item>Deny</item>
+        <item>Ijinkan</item>
+        <item>Tolak</item>
     </string-array>
     <string-array name="timezone_filters">
-        <item>America</item>
-        <item>Europe</item>
-        <item>Africa</item>
+        <item>Amerika</item>
+        <item>Eropa</item>
+        <item>Afrika</item>
         <item>Asia</item>
         <item>Australia</item>
-        <item>Pacific</item>
-        <item>All</item>
+        <item>Pasifik</item>
+        <item>Semua</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
     </string-array>
     <string-array name="tts_pitch_entries">
-        <item>Very low</item>
-        <item>Low</item>
+        <item>Sangat rendah</item>
+        <item>Rendah</item>
         <item>Normal</item>
-        <item>High</item>
-        <item>Very high</item>
+        <item>Tinggi</item>
+        <item>Sangat tinggi</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
+        <item>Sangat lambat</item>
+        <item>Lambat</item>
         <item>Normal</item>
-        <item>Fast</item>
-        <item>Very fast</item>
+        <item>Cepat</item>
+        <item>Sangat cepat</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Charge only</item>
-        <item>Mount SD card</item>
+        <item>Tanya</item>
+        <item>Hanya Ngecas</item>
+        <item>Mode USB</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
-        <item>Usage time</item>
-        <item>Launch count</item>
-        <item>App name</item>
+        <item>Waktu pemakaian</item>
+        <item>Perhitungan peluncuran</item>
+        <item>Nama apl</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
-        <item>Human</item>
-        <item>Neanderthal</item>
-        <item>Chimp</item>
-        <item>Monkey</item>
+        <item>Mahluk modern</item>
+        <item>Manusia</item>
+        <item>Neanderthals</item>
+        <item>Udang</item>
+        <item>Monyet</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Disconnected</item>
-        <item>Initializing…</item>
-        <item>Connecting…</item>
-        <item>Connected</item>
-        <item>Timeout</item>
-        <item>Unsuccessful</item>
+        <item>Terputus</item>
+        <item>Memulai...</item>
+        <item>Menyambung…</item>
+        <item>Terhubung</item>
+        <item>Waktu tunggu</item>
+        <item>Gagal</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN with pre-shared keys</item>
-        <item>L2TP/IPSec VPN with certificates</item>
-        <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
-        <item>IPSec VPN with certificates and Xauth authentication</item>
-        <item>IPSec VPN with certificates and hybrid authentication</item>
+        <item>L2TP/IPSec VPN dengan kunci pra-bagi</item>
+        <item>L2TP/IPSec VPN dengan sertifikat</item>
+        <item>IPSec VPN dengan kunci pra-bagi dan autentikasi Xauth</item>
+        <item>IPSec VPN dengan sertifikat dan autentikasi Xauth</item>
+        <item>IPSec VPN dengan sertifikat dan autentikasi hibrida</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>Device connected, creating session…</item>
-        <item>Session created.</item>
-        <item>Session tearing down…</item>
-        <item>Session failed.</item>
-        <item>Timed out, retrying…</item>
-        <item>Device connected</item>
+       <item>Perangkat terhubung, membuat sesi...</item>
+       <item>Sesi diciptakan.</item>
+       <item>Sesi Dihancurkan...</item>
+       <item>Sesi gagal.</item>
+       <item>Jangka waktu habis, mencoba kembali...</item>
+       <item>Perangkat terhubung</item>
     </string-array>
     <string-array name="wifi_ap_security">
-        <item>Open</item>
-        <item>WPA PSK</item>
-        <item>WPA2 PSK</item>
+        <item>Terbuka</item>
+        <item>W.PA PSK</item>
+        <item>W.PA2 PSK</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
-        <item>Auto</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
+        <item>Otomatis</item>
+        <item>Hanya 5 GHz </item>
+        <item>Hanya 2.4 GHz</item>
     </string-array>
     <string-array name="wifi_ip_settings">
-        <item>DHCP</item>
-        <item>Static</item>
+        <item>D.H.C.P</item>
+        <item>Statis</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Connected</item>
-        <item>Invited</item>
-        <item>Unsuccessful</item>
-        <item>Available</item>
-        <item>Out-of-range</item>
+        <item>tersambung</item>
+        <item>Di undang</item>
+        <item>Tdk suskes</item>
+        <item>tersedia</item>
+        <item>Di luar jangakuan</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Push button</item>
-        <item>PIN from peer device</item>
-        <item>PIN from this device</item>
+        <item>Tekan tombol</item>
+        <item>PIN dari alat peer</item>
+        <item>PIN dari perangkat ini</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
-        <item>None</item>
+        <item>Kosong</item>
         <item>Manual</item>
     </string-array>
     <string-array name="wifi_signal">
-        <item>Poor</item>
-        <item>Fair</item>
-        <item>Good</item>
-        <item>Excellent</item>
+        <item>lemah</item>
+        <item>Lumayan</item>
+        <item>Baik</item>
+        <item>Sangat baik</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never (increases data usage)</item>
+        <item>Selalu</item>
+        <item>Hanya ketika di cas</item>
+        <item>Tdk pernah (meningkatkan pgnaan data)</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
         <item>Always</item>
@@ -358,43 +351,43 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Memindai...</item>
+        <item>Menyambung…</item>
+        <item>Mengautentikasi…</item>
+        <item>Mendapatkan alamat IP…</item>
+        <item>Terhubung</item>
+        <item>Ditangguhkan</item>
+        <item>Memutus sambungan...</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+        <item>Dicekal</item>
+        <item>Menghindari sambungan buruk untuk sementara</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Connected to %1$s</item>
-        <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Memindai...</item>
+        <item>Menyambung ke %1$s…</item>
+        <item>Mengautentikasi dengan %1$s…</item>
+        <item>Mendapatkan alamat IP dari %1$s…</item>
+        <item>Tersambung ke %1$s</item>
+        <item>Ditangguhkan</item>
+        <item>Diputus dari %1$s…</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+        <item>Dicekal</item>
+        <item>Menghindari sambungan buruk untuk sementara</item>
     </string-array>
     <string-array name="wifi_wapi_key_type">
-        <item>WAPI ASCII</item>
-        <item>WAPI hexadecimal</item>
+        <item>W.A.P.I ASCII</item>
+        <item>W.A.P.I hexadesimal</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
     </string-array>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="about_settings">About phone</string>
-  <string name="about_settings_summary">View legal info, status, software version</string>
-  <string name="ac_enable_title">Access control</string>
+  <string name="about_settings">Tentang ponsel</string>
+  <string name="about_settings_summary">Lihat info legal, status, versi perangkat lunak</string>
+  <string name="ac_enable_title">Kontrol Akses</string>
   <string name="ac_privacy_mode_sum">Input access control password to cancel guarded mode</string>
   <string name="ac_privacy_mode_title">Enable password</string>
   <string name="ac_set_apps_title">Protect applications</string>
