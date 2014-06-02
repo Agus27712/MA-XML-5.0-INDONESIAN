@@ -227,7 +227,7 @@ Sampah"</string>
   <string name="storage_warning">Penyimpanan eksternal tidak tersedia atau tidak dapat dibaca</string>
   <string name="sys_size">Jumlah penyimpanan %1$s</string>
   <string name="sys_size_title">Jumlah penyimpanan</string>
-  <string name="tab_category"></string>
+  <string name="tab_category">Kategori</string>
   <string name="tab_networkdisk">MiDrive</string>
   <string name="tab_phone">Telepon</string>
   <string name="temp_file_cleanup_indication">%s file sementara</string>
